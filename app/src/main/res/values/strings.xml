@@ -1,6 +1,16 @@
 <resources>
+    <!-- application title -->
     <string name="app_name">CIS298Assignment2</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <!-- text views -->
+    <string name="tv_convert">Convert:</string>
+    <string name="tv_from">From:</string>
+    <string name="tv_to">To:</string>
+    <!-- buttons -->
+    <string name="btn_convert">CONVERT</string>
+    <string name="rb_celsius">Celsius</string>
+    <string name="rb_fahrenheit">Fahrenheit</string>
+    <string name="rb_kelvin">Kelvin</string>
+    <string name="rb_rankin">Rankine</string>
+    <!-- tool tips -->
+    <string name="temperature_hint">Temperature</string>
 </resources>
