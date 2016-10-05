@@ -10,11 +10,11 @@ import android.util.Log;
 
 public class Temperature
 {
-    private static final String TAG = "Temperature";
-    private static final int CELSIUS = 1;
-    private static final int FAHRENHEIT = 2;
-    private static final int KELVIN = 3;
-    private static final int RANKINE = 4;
+    public static final int CELSIUS = 1;
+    public static final int FAHRENHEIT = 2;
+    public static final int KELVIN = 3;
+    public static final int RANKINE = 4;
+    private  static final String TAG = "Temperature";
 
     public static double convertTemperature(double value, int sourceFormat, int targetFormat)
     {

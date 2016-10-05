@@ -10,7 +10,7 @@
     <string name="rb_celsius">Celsius</string>
     <string name="rb_fahrenheit">Fahrenheit</string>
     <string name="rb_kelvin">Kelvin</string>
-    <string name="rb_rankin">Rankine</string>
+    <string name="rb_rankine">Rankine</string>
     <!-- tool tips -->
     <string name="temperature_hint">Temperature</string>
 </resources>
