@@ -1,10 +1,17 @@
 # Assignment 2 - Temperature Converter
 ## Due 10-10-2016
-## Author
+## Author: Josh Weigel
 
 ## Description
 
-Create a temperature converter application.
+A temperature converter application
+similar in appearance to the provided screen shots
+
+converts a temperature provided by the user from a selected source format to a selected target format
+performs the calculation using a static method in a separate class
+
+
+
 The application should look like the screen shots I have provided.
 The application should do the calculation and display the formula that was used to do the calculation.
 The calculation of the conversion should take place in a separate class
@@ -20,12 +27,14 @@ Solution Requirements:
 * Separate Layout for landscape
 * Retain information across rotation
 
-![alt text](http://barnesbrothers.homeserver.com/cis298/assignmentImages/assignment2a.jpg "Application Portrait Layout")
-![alt text](http://barnesbrothers.homeserver.com/cis298/assignmentImages/assignment2b.jpg "Application Landscape Layout")
 ### Notes
+0 is used as a default value for the user provided temperature
 
-The book does not cover how to do work with Radio Buttons. I will talk about it as needed in class. If you are stuck or have questions about it, ask.
+when user provides invalid input for temperature,
+	the last valid value is used
+	no notification is given
 
+celsius is used as default format for both source and target when no radio buttons have been selected
 
 ## Grading
 | Feature                  | Points |
@@ -43,5 +52,12 @@ The book does not cover how to do work with Radio Buttons. I will talk about it 
 | Total                    | 100    |
 
 ## Outside Resources Used
+textbook and in class examples?
 
 ## Known Problems, Issues, And/Or Errors in the Program
+formula textview not completed yet
+
+application does not retrieve savedInstantState yet
+
+no radio buttons are selected until the user selects them
+
